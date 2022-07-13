@@ -5,11 +5,11 @@
 
     list-style: none;
     text-decoration: none;
-    font-size: 62.5%;
+    font-size: 62.5%; /* 1rem = 10px */
 
     margin: 0;
     padding: 0;
-    zoom: 105%;
+    zoom: 106%;
 }
 
 html {
@@ -23,7 +23,7 @@ html {
 body {
     width: 100%;
     padding-top: 12vh;
-    background: var(--background-color);
+    background-color: var(--background-color);
 }
 
 .container {
@@ -51,8 +51,9 @@ h1 {
 p {
     font-weight: 400;
     font-size: 0.9rem;
-    margin-bottom: 2.2rem;
+    margin-bottom: 1.2rem;
     color: var(--text-color);
+    text-align: center;
 }
 
 li {
@@ -83,6 +84,12 @@ a {
 }
 
 footer {
+    font-size: 0.75rem;
     color: var(--text-color);
-    font-size: 0.7rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    padding-top: 0.2rem;
 }
